@@ -28,9 +28,10 @@ const Navigation = () => {
         <LogoContainer to='/'>
           <CrwnLogo className='logo' />
         </LogoContainer>
-        <Title>
-          <h2>Let's Fashion Share !</h2>
-        </Title>
+        <NavLinks>
+          <Title to='shop'>Let's Fashion Share</Title>
+        </NavLinks>
+
         <NavLinks>
           <NavLink to='shop'>SHOP</NavLink>
 

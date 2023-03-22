@@ -1,18 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const Title = styled.div`
-  width: 50%;
-  height: 100%;
+export const Title = styled(Link)`
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-top: 5px;
-  margin-left: 201px;
-  h2 {
-    margin: 0;
-    font-family: 'Delicious Handrawn', cursive;
-    font-size: 40px;
+  align-item: center;
+  justify-content:center;
+  font-family: 'Delicious Handrawn', cursive;
+  font-size: 35px;
   }
 `;
 
