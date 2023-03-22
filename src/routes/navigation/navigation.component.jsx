@@ -25,7 +25,7 @@ const Navigation = () => {
   return (
     <Fragment>
       <NavigationContainer>
-        <LogoContainer to='/yydc'>
+        <LogoContainer to='/'>
           <CrwnLogo className='logo' />
         </LogoContainer>
         <Title>
