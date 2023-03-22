@@ -8,7 +8,7 @@ export const Title = styled.div`
   align-items: center;
   justify-content: flex-end;
   margin-top: 5px;
-  margin-left: 200px;
+  margin-left: 201px;
   h2 {
     margin: 0;
     font-family: 'Delicious Handrawn', cursive;
