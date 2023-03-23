@@ -2,11 +2,12 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Title = styled(Link)`
-  display: flex;
+
   align-item: center;
   justify-content:center;
   font-family: 'Delicious Handrawn', cursive;
   font-size: 35px;
+  margin-left:60px;
   }
 `;
 
